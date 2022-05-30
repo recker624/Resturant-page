@@ -6,6 +6,7 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  //source map for detecting which file is generating error
   devtool: 'inline-source-map',
   devServer: {
     static: './dist',
