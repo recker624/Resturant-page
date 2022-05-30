@@ -1,0 +1,2 @@
+#use 'npm install' to install all the dependencies in the node modules folder on a new machine
+node_modules
