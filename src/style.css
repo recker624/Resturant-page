@@ -4,6 +4,13 @@
    box-sizing: border-box;
 }
 
+body {
+   background: url(background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;   
+   background-attachment: fixed;
+}
+
 .top {
    background-color: black;
    color: white;
@@ -40,7 +47,7 @@
    width: 700px;
    height: 600px;
    margin: 60px auto;
-   background-color: #0000009a;
+   background-color: #000000ce;
    color:  white;
    font-size: 1.7rem;
    
@@ -48,9 +55,19 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   gap: 30px;
 }
 
 .intro-text {
   margin: 0 20px;
-  
 }
+
+.chef {
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   background: url(chef.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
