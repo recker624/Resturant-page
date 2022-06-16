@@ -1,0 +1,27 @@
+.intro {
+   width: 700px;
+   height: 600px;
+   margin: 60px auto;
+   background-color: #000000ce;
+   color:  white;
+   font-size: 1.7rem;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+
+.intro-text {
+  margin: 0 20px;
+}
+
+.chef {
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   background: url(chef.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
