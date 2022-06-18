@@ -12,8 +12,11 @@ export let contentToLoad = (function() {
 
         let itemImg = document.createElement("div");
         let description = document.createElement("div");
-        itemImg.classList.add("menuImg");
+        itemImg.classList.add("itemImg");
         description.classList.add("description");
+
+        description.insertAdjacentHTML("beforeend", `<p>Lorem Ipsum : It is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>`);
 
         menuItems[i].append(itemImg, description);
 

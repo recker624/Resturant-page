@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry:{ 
-    index : './src/index.js'
+    index : './src/scripts/index.js'
   },
   output: {
     filename: '[name].js',
@@ -19,7 +19,6 @@ module.exports = {
   devtool: 'inline-source-map',
   devServer: {
     static: './dist',
-
   },
   module: {
     rules: [
