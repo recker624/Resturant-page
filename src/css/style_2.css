@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 * {
    margin: 0;
    padding: 0;
@@ -28,13 +31,23 @@
  }
 
  .itemImg {
-   min-width: 200px;
+   width: 180px;
+ }
 
-   background: url("../images/Cheesecake-Berry-Parfaits.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
+ .itemImg img {
+    width: 180px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
  }
 
  .description {
    flex-grow: 2;
+   font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+ }
+
+ .description h3 {
+  margin: 10px 0;
+  font-family: 'Montserrat', sans-serif;
  }
